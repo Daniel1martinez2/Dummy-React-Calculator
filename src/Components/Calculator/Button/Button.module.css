@@ -1,0 +1,42 @@
+.key{
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  line-height: normal;
+  font-size: 100%;
+  padding: .5em;
+}
+.key--number{
+  background-color: #EDEDF0;
+  border-radius: 8px;
+  color: #7188B5;
+}
+.key--number:hover{
+  background-color: #d6d6d7;
+}
+.zero{
+  grid-column-start: 1;
+  grid-column-end:  3;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+.key--operator{
+  background-color: #377F79;
+  border-radius: 500px;
+  color: #EDEDF0;
+}
+
+.key--operator:hover{
+  background-color:  #2f6f6a;
+}
+.equal{
+  background-color:  #F33550;
+  border-radius: 500px;
+  color: #EDEDF0;
+}
+.equal:hover{
+  background-color:  #d72e47;
+}

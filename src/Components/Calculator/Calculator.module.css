@@ -1,10 +1,15 @@
 .calculator{
   padding: 1.5em;
+  
   width: 298px;
-  max-width: 390px;
   border-radius: 8px;
   background-color: #2F3740;
   overflow: hidden;
-  min-width: 298px;
-  min-height: 385px;
+  
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 80px auto;
+  column-gap: 10px;
+  row-gap: 20px;
+  
 }

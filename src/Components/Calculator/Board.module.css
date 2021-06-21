@@ -1,13 +1,13 @@
 .board{
-  margin-top: 2em;
   width: 100%;
   /* background-color: blue; */
   display: grid;
-  justify-content: center; 
+  /* justify-content: center;  */
   grid-template-columns: repeat(4, 50px);
+  justify-content: space-between; 
   grid-template-rows: repeat(4, 50px);
-  column-gap: 10px;
-  row-gap: 10px;
+  column-gap: 0;
+  row-gap: 13px;
   min-width: 250px;
   min-height: 230px;
 }
