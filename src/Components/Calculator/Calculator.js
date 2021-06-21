@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import {evaluate} from 'mathjs'; 
 import Board from './Board'; 
 import Screen from './Screen';
 import classes from './Calculator.module.css'; 
@@ -10,9 +11,7 @@ const Calculator = props => {
   
   }
   const handleResult = () =>{
-    const resultScreen = eval(`${screenLogic}`); 
-    setScreenLogic(resultScreen)
-    console.log(resultScreen);
+    setScreenLogic(prev => evaluate(prev))
   }
   return(
     <main className={classes.calculator}>

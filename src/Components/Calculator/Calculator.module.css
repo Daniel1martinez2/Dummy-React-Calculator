@@ -11,5 +11,6 @@
   grid-template-rows: 80px auto;
   column-gap: 10px;
   row-gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
   
 }

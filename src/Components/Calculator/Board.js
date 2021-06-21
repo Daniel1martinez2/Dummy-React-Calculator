@@ -7,7 +7,7 @@ const Board = props => {
       <Button onClick={props.onSetScreenValue}>7</Button>      
       <Button onClick={props.onSetScreenValue}>8</Button>      
       <Button onClick={props.onSetScreenValue}>9</Button>      
-      <Button onClick={props.onSetScreenValue}>x</Button>      
+      <Button onClick={props.onSetScreenValue}>*</Button>      
       <Button onClick={props.onSetScreenValue}>4</Button>      
       <Button onClick={props.onSetScreenValue}>5</Button>      
       <Button onClick={props.onSetScreenValue}>6</Button>      
@@ -18,7 +18,7 @@ const Board = props => {
       <Button onClick={props.onSetScreenValue}>+</Button>      
       <Button onClick={props.onSetScreenValue}>0</Button>      
       <Button onClick={props.onSetScreenValue}>.</Button>      
-      <Button onClick={props.onSetScreenValue}>=</Button>      
+      <Button onClick={()=>props.onSetResult()}>=</Button>      
     </main>
   ); 
 }
