@@ -1,0 +1,15 @@
+.key--operator{
+  background-color: #377F79;
+  border-radius: 500px;
+  color: #EDEDF0;
+}
+
+.key--operator:hover{
+  background-color:  #2f6f6a;
+}
+.equal{
+  background-color:  #F33550;
+}
+.equal:hover{
+  background-color:  #d72e47;
+}

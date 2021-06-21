@@ -1,0 +1,10 @@
+.calculator{
+  padding: 1.5em;
+  width: 298px;
+  max-width: 390px;
+  border-radius: 8px;
+  background-color: #2F3740;
+  overflow: hidden;
+  min-width: 298px;
+  min-height: 385px;
+}

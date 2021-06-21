@@ -1,0 +1,11 @@
+.key{
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  line-height: normal;
+  font-size: 100%;
+  padding: .5em;
+}
