@@ -2,7 +2,7 @@ import classes from './Button.module.css';
 const Button = props => {
   const childValue = props.children;
   let buttonType = 'key--number'; 
-  if(childValue === '+' ||childValue === '-' || childValue === 'x' ) buttonType = 'key--operator'; 
+  if(childValue === '+' ||childValue === '-' || childValue === '*' ) buttonType = 'key--operator'; 
   if(childValue === '=') buttonType = 'equal'
   return(
     <button 
