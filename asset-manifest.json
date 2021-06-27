@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ToDoList-React/static/css/main.db7769af.chunk.css",
-    "main.js": "/ToDoList-React/static/js/main.354ee828.chunk.js",
-    "main.js.map": "/ToDoList-React/static/js/main.354ee828.chunk.js.map",
-    "runtime-main.js": "/ToDoList-React/static/js/runtime-main.4b2515c1.js",
-    "runtime-main.js.map": "/ToDoList-React/static/js/runtime-main.4b2515c1.js.map",
-    "static/js/2.b210ecba.chunk.js": "/ToDoList-React/static/js/2.b210ecba.chunk.js",
-    "static/js/2.b210ecba.chunk.js.map": "/ToDoList-React/static/js/2.b210ecba.chunk.js.map",
-    "static/js/3.5288962d.chunk.js": "/ToDoList-React/static/js/3.5288962d.chunk.js",
-    "static/js/3.5288962d.chunk.js.map": "/ToDoList-React/static/js/3.5288962d.chunk.js.map",
-    "index.html": "/ToDoList-React/index.html",
-    "static/css/main.db7769af.chunk.css.map": "/ToDoList-React/static/css/main.db7769af.chunk.css.map",
-    "static/js/2.b210ecba.chunk.js.LICENSE.txt": "/ToDoList-React/static/js/2.b210ecba.chunk.js.LICENSE.txt"
+    "main.css": "/Dummy-React-Calculator/static/css/main.db7769af.chunk.css",
+    "main.js": "/Dummy-React-Calculator/static/js/main.354ee828.chunk.js",
+    "main.js.map": "/Dummy-React-Calculator/static/js/main.354ee828.chunk.js.map",
+    "runtime-main.js": "/Dummy-React-Calculator/static/js/runtime-main.617ec247.js",
+    "runtime-main.js.map": "/Dummy-React-Calculator/static/js/runtime-main.617ec247.js.map",
+    "static/js/2.b210ecba.chunk.js": "/Dummy-React-Calculator/static/js/2.b210ecba.chunk.js",
+    "static/js/2.b210ecba.chunk.js.map": "/Dummy-React-Calculator/static/js/2.b210ecba.chunk.js.map",
+    "static/js/3.5288962d.chunk.js": "/Dummy-React-Calculator/static/js/3.5288962d.chunk.js",
+    "static/js/3.5288962d.chunk.js.map": "/Dummy-React-Calculator/static/js/3.5288962d.chunk.js.map",
+    "index.html": "/Dummy-React-Calculator/index.html",
+    "static/css/main.db7769af.chunk.css.map": "/Dummy-React-Calculator/static/css/main.db7769af.chunk.css.map",
+    "static/js/2.b210ecba.chunk.js.LICENSE.txt": "/Dummy-React-Calculator/static/js/2.b210ecba.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4b2515c1.js",
+    "static/js/runtime-main.617ec247.js",
     "static/js/2.b210ecba.chunk.js",
     "static/css/main.db7769af.chunk.css",
     "static/js/main.354ee828.chunk.js"
