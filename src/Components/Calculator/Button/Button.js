@@ -5,8 +5,7 @@ const Button = props => {
   if(childValue === '+' ||childValue === '-' || childValue === '*' ) buttonType = 'key--operator'; 
   if(childValue === '=') buttonType = 'equal'
   return(
-    <button 
-      className={`${classes.key} ${classes[buttonType]} ${childValue === '0' ? classes['zero']: ''}`} onClick={()=>props.onClick(childValue)}>{childValue}</button>
+    <button className={`${classes.key} ${classes[buttonType]} ${childValue === '0' ? classes['zero']: ''}`} onClick={()=>props.onClick(childValue)}>{childValue}</button>
   );
 }
 export default Button; 
